@@ -4,7 +4,6 @@ guessed_number = random.randrange(1, 100, 1)
 def decider (*x) :
 	while x != guessed_number :
 		x = raw_input("Enter guessed number (from 1 to 100): ")
-		print guessed_number
 		if x < guessed_number :
 			print("Wrong! Guessed number is greater. Try again")
 			continue
