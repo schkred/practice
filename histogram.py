@@ -4,7 +4,7 @@ def histo(sequence) :
     i = max(sequence)
     while i >= 1 :
         tmp = ''
-        for x in seq :
+        for x in sequence :
             if x >= i :
                 tmp +=' * '
             else :
