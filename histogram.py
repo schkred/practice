@@ -6,9 +6,9 @@ def histo(sequence) :
         tmp = ''
         for x in sequence :
             if x >= i :
-                tmp +=' * '
+                tmp += ' * '
             else :
-               tmp +='   '
+               tmp += '   '
         print tmp
         i -= 1
 
